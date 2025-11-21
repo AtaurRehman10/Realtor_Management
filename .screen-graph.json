@@ -1,0 +1,363 @@
+{
+  "nodes": [
+    {
+      "id": "src/screens/login.jsx",
+      "label": "login",
+      "routes": [
+        "/"
+      ],
+      "isRoot": true
+    },
+    {
+      "id": "src/screens/ForgotPassword.jsx",
+      "label": "ForgotPassword",
+      "routes": [
+        "/forgot-password"
+      ]
+    },
+    {
+      "id": "src/screens/register.jsx",
+      "label": "register",
+      "routes": [
+        "/register"
+      ]
+    },
+    {
+      "id": "src/component/AdminDashboard.jsx",
+      "label": "AdminDashboard",
+      "routes": [
+        "/admin-dashboard"
+      ]
+    },
+    {
+      "id": "src/component/AdminRealtors.jsx",
+      "label": "AdminRealtors",
+      "routes": [
+        "/admin/realtors"
+      ]
+    },
+    {
+      "id": "src/component/EditRealtor.jsx",
+      "label": "EditRealtor",
+      "routes": [
+        "/admin/realtors/edit/:id"
+      ]
+    },
+    {
+      "id": "src/component/ViewRealtor.jsx",
+      "label": "ViewRealtor",
+      "routes": [
+        "/admin/realtors/view/:id"
+      ]
+    },
+    {
+      "id": "src/component/AdminReferrals.jsx",
+      "label": "AdminReferrals",
+      "routes": [
+        "/admin/referrals"
+      ]
+    },
+    {
+      "id": "src/component/AdminPayouts.jsx",
+      "label": "AdminPayouts",
+      "routes": [
+        "/admin/payouts"
+      ]
+    },
+    {
+      "id": "src/component/RealtorDashboard.jsx",
+      "label": "RealtorDashboard",
+      "routes": [
+        "/dashboard"
+      ]
+    },
+    {
+      "id": "src/component/RealtorReferrals.jsx",
+      "label": "RealtorReferrals",
+      "routes": [
+        "/referrals"
+      ]
+    },
+    {
+      "id": "src/component/RealtorSetting.jsx",
+      "label": "RealtorSetting",
+      "routes": [
+        "/settings"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "src/screens/login.jsx:25:8-to-src/component/AdminDashboard.jsx",
+      "source": "src/screens/login.jsx",
+      "target": "src/component/AdminDashboard.jsx",
+      "data": {
+        "viaRoute": "/admin-dashboard",
+        "trigger": {
+          "element": "navigate(\"/admin-dashboard\")",
+          "line": 25,
+          "endLine": 25,
+          "column": 8,
+          "endColumn": 36,
+          "sourceFile": "src/screens/login.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/login.jsx:27:8-to-src/component/RealtorDashboard.jsx",
+      "source": "src/screens/login.jsx",
+      "target": "src/component/RealtorDashboard.jsx",
+      "data": {
+        "viaRoute": "/dashboard",
+        "trigger": {
+          "element": "navigate(\"/dashboard\")",
+          "line": 27,
+          "endLine": 27,
+          "column": 8,
+          "endColumn": 30,
+          "sourceFile": "src/screens/login.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/login.jsx:128:31-to-src/screens/ForgotPassword.jsx",
+      "source": "src/screens/login.jsx",
+      "target": "src/screens/ForgotPassword.jsx",
+      "data": {
+        "viaRoute": "/forgot-password",
+        "trigger": {
+          "element": "navigate(\"/forgot-password\")",
+          "line": 128,
+          "endLine": 128,
+          "column": 31,
+          "endColumn": 59,
+          "sourceFile": "src/screens/login.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/login.jsx:147:31-to-src/screens/register.jsx",
+      "source": "src/screens/login.jsx",
+      "target": "src/screens/register.jsx",
+      "data": {
+        "viaRoute": "/register",
+        "trigger": {
+          "element": "navigate(\"/register\")",
+          "line": 147,
+          "endLine": 147,
+          "column": 31,
+          "endColumn": 52,
+          "sourceFile": "src/screens/login.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ForgotPassword.jsx:77:29-to-src/screens/login.jsx",
+      "source": "src/screens/ForgotPassword.jsx",
+      "target": "src/screens/login.jsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 77,
+          "endLine": 77,
+          "column": 29,
+          "endColumn": 42,
+          "sourceFile": "src/screens/ForgotPassword.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/register.jsx:29:15-to-src/screens/login.jsx",
+      "source": "src/screens/register.jsx",
+      "target": "src/screens/login.jsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 29,
+          "endLine": 29,
+          "column": 15,
+          "endColumn": 28,
+          "sourceFile": "src/screens/register.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/register.jsx:191:50-to-src/screens/login.jsx",
+      "source": "src/screens/register.jsx",
+      "target": "src/screens/login.jsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 191,
+          "endLine": 191,
+          "column": 50,
+          "endColumn": 63,
+          "sourceFile": "src/screens/register.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/EditRealtor.jsx:72:15-to-src/component/AdminRealtors.jsx",
+      "source": "src/component/EditRealtor.jsx",
+      "target": "src/component/AdminRealtors.jsx",
+      "data": {
+        "viaRoute": "/admin/realtors",
+        "trigger": {
+          "element": "navigate(\"/admin/realtors\")",
+          "line": 72,
+          "endLine": 72,
+          "column": 15,
+          "endColumn": 42,
+          "sourceFile": "src/component/EditRealtor.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/EditRealtor.jsx:96:40-to-src/component/AdminRealtors.jsx",
+      "source": "src/component/EditRealtor.jsx",
+      "target": "src/component/AdminRealtors.jsx",
+      "data": {
+        "viaRoute": "/admin/realtors",
+        "trigger": {
+          "element": "navigate(\"/admin/realtors\")",
+          "line": 96,
+          "endLine": 96,
+          "column": 40,
+          "endColumn": 67,
+          "sourceFile": "src/component/EditRealtor.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/EditRealtor.jsx:237:55-to-src/component/AdminRealtors.jsx",
+      "source": "src/component/EditRealtor.jsx",
+      "target": "src/component/AdminRealtors.jsx",
+      "data": {
+        "viaRoute": "/admin/realtors",
+        "trigger": {
+          "element": "navigate(\"/admin/realtors\")",
+          "line": 237,
+          "endLine": 237,
+          "column": 55,
+          "endColumn": 82,
+          "sourceFile": "src/component/EditRealtor.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/ViewRealtor.jsx:58:40-to-src/component/AdminRealtors.jsx",
+      "source": "src/component/ViewRealtor.jsx",
+      "target": "src/component/AdminRealtors.jsx",
+      "data": {
+        "viaRoute": "/admin/realtors",
+        "trigger": {
+          "element": "navigate(\"/admin/realtors\")",
+          "line": 58,
+          "endLine": 58,
+          "column": 40,
+          "endColumn": 67,
+          "sourceFile": "src/component/ViewRealtor.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/ViewRealtor.jsx:75:40-to-src/component/AdminRealtors.jsx",
+      "source": "src/component/ViewRealtor.jsx",
+      "target": "src/component/AdminRealtors.jsx",
+      "data": {
+        "viaRoute": "/admin/realtors",
+        "trigger": {
+          "element": "navigate(\"/admin/realtors\")",
+          "line": 75,
+          "endLine": 75,
+          "column": 40,
+          "endColumn": 67,
+          "sourceFile": "src/component/ViewRealtor.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/AdminReferrals.jsx:72:4-to-src/screens/login.jsx",
+      "source": "src/component/AdminReferrals.jsx",
+      "target": "src/screens/login.jsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 72,
+          "endLine": 72,
+          "column": 4,
+          "endColumn": 17,
+          "sourceFile": "src/component/AdminReferrals.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/RealtorReferrals.jsx:77:4-to-src/screens/login.jsx",
+      "source": "src/component/RealtorReferrals.jsx",
+      "target": "src/screens/login.jsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 77,
+          "endLine": 77,
+          "column": 4,
+          "endColumn": 17,
+          "sourceFile": "src/component/RealtorReferrals.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/Realtorsidebar.jsx:22:4-to-src/screens/login.jsx",
+      "source": "src/component/RealtorReferrals.jsx",
+      "target": "src/screens/login.jsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 22,
+          "endLine": 22,
+          "column": 4,
+          "endColumn": 17,
+          "sourceFile": "src/component/Realtorsidebar.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/RealtorSetting.jsx:66:4-to-src/screens/login.jsx",
+      "source": "src/component/RealtorSetting.jsx",
+      "target": "src/screens/login.jsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 66,
+          "endLine": 66,
+          "column": 4,
+          "endColumn": 17,
+          "sourceFile": "src/component/RealtorSetting.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/component/Realtorsidebar.jsx:22:4-to-src/screens/login.jsx",
+      "source": "src/component/RealtorReferrals.jsx",
+      "target": "src/screens/login.jsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 22,
+          "endLine": 22,
+          "column": 4,
+          "endColumn": 17,
+          "sourceFile": "src/component/Realtorsidebar.jsx"
+        }
+      }
+    }
+  ]
+}
